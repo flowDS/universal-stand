@@ -1,0 +1,6 @@
+local playerWhitelist = {
+    [123456789] = true,  
+    [987654321] = true,
+}
+
+return playerWhitelist
