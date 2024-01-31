@@ -1,0 +1,23 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gclich/G-animation-/main/ANIMATIONCHANGER.txt"))()
+ 
+ 
+getgenv().NotificationMessage = "Flows Experiment"
+getgenv().NotificationDuration = 5  -- Set the duration in seconds
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ilyanaes/1/main/notify'))()
+ 
+getgenv().NotificationMessage = "Welcome To Beta Tester team"
+getgenv().NotificationDuration = 5 -- Set the duration in seconds
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ilyanaes/1/main/notify'))()
+ 
+ 
+getgenv().NotificationMessage = "Discord link Copied to clipboard"
+getgenv().NotificationDuration = 5 -- Set the duration in seconds
+ 
+local DiscordLink = "https://discord.gg/FhnyWjmkQg" -- Replace with your actual Discord invite link
+ 
+-- Print and copy Discord link to clipboard
+print("Copying Discord link:", DiscordLink) -- Print to console
+setclipboard(DiscordLink) -- Copy Discord link to clipboard
+print("The Discord link has been copied to your clipboard.") -- Print completion message
+ 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ilyanaes/1/main/notify'))()
