@@ -1,6 +1,6 @@
-local playerWhitelist = {
-    [123456789] = true,  
-    [987654321] = true,
+-- Whitelist of allowed user IDs
+getgenv().FlowsStand = getgenv().FlowsStand or {}
+getgenv().FlowsStand.Whitelist = {
+    [12345678] = true,  -- Replace with the owner's user ID
+    [98765432] = true,  -- Add more whitelisted user IDs as needed
 }
-
-return playerWhitelist
