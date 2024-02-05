@@ -1,4 +1,26 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/gclich/G-animation-/main/ANIMATIONCHANGER.txt"))()
+local player = game.Players.LocalPlayer
+local humanoid = player.Character:WaitForChild("Humanoid")
+local animationId = "rbxassetid://616006778"
+
+local function playAnimation()
+    local animation = Instance.new("Animation")
+    animation.AnimationId = animationId
+
+    local track = humanoid:LoadAnimation(animation)
+    track:Play()
+    track.Looped = true
+end
+
+playAnimation()
+
+player.CharacterAdded:Connect(function()
+    humanoid = player.Character:WaitForChild("Humanoid")
+    playAnimation()
+end)
+
+player.CharacterRemoving:Connect(function()
+    humanoid = nil
+end)
  
  
 getgenv().NotificationMessage = "Flows Experiment"
