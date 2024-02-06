@@ -1,6 +1,6 @@
 -- Whitelist.lua
 return {
-    2800377754,
-    987654321,
+    2800377754, -- Milan_HR
+    4317592884, -- tublewheat77
     -- Add more user IDs on separate lines if needed
 }
