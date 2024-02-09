@@ -1,3 +1,4 @@
+print("whitlist open")
 {
   "whitelist": [
     "2800377754", -- milan_HR
