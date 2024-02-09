@@ -1,8 +1,9 @@
-print("whitlist open")
-{
-  "whitelist": [
-    "2800377754", -- milan_HR
-    "000000",
-    "000000"
-  ]
+print("whitelist open")
+
+return {
+    whitelist = {
+        "2800377754", -- milan_HR
+        "000000",
+        "000000"
+    }
 }
