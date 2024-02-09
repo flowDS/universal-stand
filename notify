@@ -27,7 +27,7 @@ getgenv().NotificationMessage = "Flows Experiment"
 getgenv().NotificationDuration = 5  -- Set the duration in seconds
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ilyanaes/1/main/notify'))()
  
-getgenv().NotificationMessage = "Welcome To Beta Tester team"
+getgenv().NotificationMessage = "Welcome Member"
 getgenv().NotificationDuration = 5 -- Set the duration in seconds
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ilyanaes/1/main/notify'))()
  
