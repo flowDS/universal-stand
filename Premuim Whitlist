@@ -1,9 +1,10 @@
-print("whitelist open")
+local UserIDs = {}
 
-return {
-    whitelist = {
-        "2800377754", -- milan_HR
-        "000000",
-        "000000"
-    }
+-- Add user IDs here
+UserIDs = {
+    2800377754,
+    2345678901,
+    
 }
+
+return UserIDs
