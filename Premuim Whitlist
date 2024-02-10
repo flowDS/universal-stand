@@ -1,6 +1,3 @@
-local UserIDs = {}
-
--- Add user IDs here
 UserIDs = {
     2800377754, -- milan_HR
     5226812721, -- jdjcxbdnfnfn
